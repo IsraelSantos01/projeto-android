@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+
+:root {
+--verdeclaro: #c5ebd6;
+--verdin: #75f8b0;
+--verde: #3ddc84;
+--verdeforte: #008037;
+--verdão: #023016;
+
+--fontepadrao: arial, verdana, helvetica, sans-serif;
+--fontedestaque: "Bebas Neue", sans-serif;
+--fonteandroid: 'android', 'cursive';
+}
+
+body{
+    background-color: var(--verdeclaro);
+    margin: 0cm;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--verde,), var(--verdeforte));
+    margin-bottom: 12px;
+    height: 160px;
+    max-width: 1500px;
+    min-width: 320px;
+    
+}
+    header > h1{
+color: var(--verdão);
+font-family: var(--fonteandroid);
+text-align: center;
+font-size: 32px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+header > p{
+    text-align: center;
+    color: var(--verdão);
+    font-family: var(--fontedestaque);
+    font-size: 17px;
+    font-weight: bold;
+    max-width: 400px;
+    margin: auto;
+}
+nav{
+    margin-top: 20px;
+    max-width: 1200px;
+    min-width: 520px;
+    
+}
+   nav > a{
+text-decoration: none;
+font-weight: bolder;
+margin-left: 0.5cm;
+font-family: var(--fontedestaque);
+padding: 5px;
+border-radius: 7px;
+background-color: rgba(135, 218, 167, 0.514);
+color: #023016;
+transition-duration: 0.5s;
+   }
+   nav > a:hover{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+   }
+
+main{
+    background-color: white;
+    font-family: var(--fontepadrao);
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    max-width: 800px;
+    text-align: justify;
+}
+main > h2{
+    font-family: var(--fonteandroid);
+    color: #023016;
+    font-size: 20px;
+    background-image: linear-gradient(to right, var(--verde), white);
+    padding: 5px;
+}
+img{
+    width: 100%;
+}
+br{
+    max-height: 1px;
+}
+
+@media screen and (max-width: 593px) 
+{
+
+header{
+    background-image: linear-gradient(to bottom, var(--verde,), var(--verdeforte));
+    margin: auto;
+    height: 201px;
+    max-width: 1500px;
+    min-width: 320px;
+}
+
+
+}
+    
