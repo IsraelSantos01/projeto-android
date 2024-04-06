@@ -113,4 +113,22 @@ header{
 
 
 }
+@media screen and (max-width: 475px) {
+    header{
+        background-image: linear-gradient(to bottom, var(--verde,), var(--verdeforte));
+        margin-bottom: 12px;
+        height: 250px;
+        max-width: 1500px;
+        min-width: 320px;
     
+}
+        header > p{
+            text-align: center;
+            color: var(--verdão);
+            font-family: var(--fontedestaque);
+            font-size: 20px;
+            font-weight: bold;
+            max-width: 400px;
+            margin: auto;
+        }
+    }
