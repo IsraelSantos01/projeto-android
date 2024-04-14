@@ -23,7 +23,7 @@
 
 body{
     background-color: var(--verdeclaro);
-    margin: 0cm;
+    margin: 0px;
 }
 
 header{
@@ -147,4 +147,8 @@ header{
             max-width: 400px;
             margin: auto;
         }
+    }
+    #corpo{
+margin: auto;
+position: absolute;
     }
